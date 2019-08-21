@@ -20,8 +20,8 @@ class Dog
     print @@all
  	end 
 	 
-# 	def save(dog)
-# 	  @@all << self.dog
+# 	def save
+# 	  @@all.class_variable_get
 # 	 end 
   
   def self.clear_all
