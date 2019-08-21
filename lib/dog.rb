@@ -22,7 +22,7 @@ class Dog
   end
  	end 
 	 
-	def save
+	def self.save
 	  @@all.class_variable_get
 	 end 
   
